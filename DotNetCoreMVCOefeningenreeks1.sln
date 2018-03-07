@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27130.2036
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetCoreMVCOefeningenreeks1", "DotNetCoreMVCOefeningenreeks1\DotNetCoreMVCOefeningenreeks1.csproj", "{274FE974-3F43-4533-822A-926B9D0BA918}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotNetCoreMVCOefeningenreeks1", "DotNetCoreMVCOefeningenreeks1\DotNetCoreMVCOefeningenreeks1.csproj", "{274FE974-3F43-4533-822A-926B9D0BA918}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyHobbies", "MyHobbies\MyHobbies.csproj", "{147718E7-244F-4978-9E09-ABCF20BB7D58}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{274FE974-3F43-4533-822A-926B9D0BA918}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{274FE974-3F43-4533-822A-926B9D0BA918}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{274FE974-3F43-4533-822A-926B9D0BA918}.Release|Any CPU.Build.0 = Release|Any CPU
+		{147718E7-244F-4978-9E09-ABCF20BB7D58}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{147718E7-244F-4978-9E09-ABCF20BB7D58}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{147718E7-244F-4978-9E09-ABCF20BB7D58}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{147718E7-244F-4978-9E09-ABCF20BB7D58}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

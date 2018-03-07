@@ -42,5 +42,10 @@ namespace DotNetCoreMVCOefeningenreeks1.Controllers
             
             return View("Lijst");
         }
+
+        public IActionResult JSLijst()
+        {
+            return Json(bands);
+        }
     }
 }

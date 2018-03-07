@@ -1,0 +1,33 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>LijstMetLeden</title>
+</head>
+<body>
+    <h2>Bands met hun leden</h2>
+
+    <ol>
+        @foreach (var band in ViewBag.Bands)
+        {
+            <li>
+                @band.Naam (@band.Jaar)
+                <ul>
+                    @foreach (var bandlid in band.Leden)
+                    {
+                        <li>
+                            @bandlid.Naam - @bandlid.Leeftijd @(!bandlid.Levend ? "(+)" : "" ) - @bandlid.Geslacht
+                        </li>
+                    }
+                </ul>
+            </li>
+        }
+    </ol>
+</body>
+</html>

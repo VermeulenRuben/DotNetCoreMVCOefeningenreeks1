@@ -1,0 +1,25 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Lijst</title>
+</head>
+<body>
+    <h2>Bands</h2>
+
+    <ol>
+        @foreach (var band in ViewBag.Bands)
+        {
+            <li>@band.Naam (@band.Jaar)</li>
+        }
+    </ol>
+    @*@Html.ActionLink("Naar lijst met leden", "LijstMetLeden")*@
+    <a asp-action="LijstMetLeden">Naar lijst met leden</a>
+</body>
+</html>
